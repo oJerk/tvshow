@@ -1,0 +1,67 @@
+body {
+  background-color: #e5e5e5;
+  color: #333;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #1d3f72;
+  font-size: 2em;
+  margin: 1em 0;
+  text-align: center;
+}
+
+input[type="text"] {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0.5em;
+  width: 80%;
+}
+
+button {
+  background-color: #1d3f72;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1em;
+  padding: 0.5em 1em;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #0c3b5d;
+}
+
+.show-card {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  margin: 0.5em;
+  padding: 1em;
+  text-align: left;
+  width: 300px;
+}
+
+#lightbox {
+  background-color: rgba(255, 255, 255, 0.9);
+  display: none;
+  left: 0;
+  padding: 2em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+#lightbox img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+#lightbox .info {
+  margin-top: 1em;
+}
